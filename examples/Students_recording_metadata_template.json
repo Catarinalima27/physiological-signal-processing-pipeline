@@ -1,0 +1,99 @@
+{
+  "README": {
+    "description": "Example fictional participant information file used to demonstrate the expected structure of the pipeline input metadata.",
+    "note": "All information in this file is fictional and does not correspond to real participants or recordings.",
+
+    "structure": {
+      "Turma": "Identifier of the class/group.",
+      "Participants": "List containing participant metadata and associated physiological recordings.",
+
+      "Student Code": "Anonymous participant identifier.",
+      "Sex": "Participant sex information.",
+      "Date": "Participant birth date or relevant date information.",
+
+      "Pre D1": "BITalino device identifier used during the first pre-intervention recording.",
+      "Pre D2": "BITalino device identifier used during the second pre-intervention recording.",
+      "Intervention": "BITalino device identifier used during the intervention recording.",
+      "Post Intervention": "BITalino device identifier used during the post-intervention recording.",
+
+      "Relative Path Pre D1": "Relative path to the physiological signal file recorded with the Pre D1 BITalino device.",
+      "Relative Path Pre D2": "Relative path to the physiological signal file recorded with the Pre D2 BITalino device.",
+      "Relative Path Intervention": "Relative path to the physiological signal file recorded with the Intervention BITalino device.",
+      "Relative Path Post Intervention": "Relative path to the physiological signal file recorded with the Post Intervention BITalino device."
+    }
+  },
+
+
+  "Classes": [
+    {
+      "Turma": "T01",
+
+      "Participants": [
+        {
+          "Student Code": "P001",
+          "Sex": "F",
+          "Date": "2015-03-12",
+
+          "Pre D1": "BITalino_B14",
+          "Pre D2": "BITalino_B14",
+          "Intervention": "BITalino_B09",
+          "Post Intervention": "BITalino_B19",
+
+          "Relative Path Pre D1": "T01_Pre_D1/BITalino_B14/MAC_SYNTHETIC001.txt",
+
+          "Relative Path Pre D2": "T01_Pre_D2/BITalino_B14/MAC_SYNTHETIC001.txt",
+
+          "Relative Path Intervention": "T01_Intervention/BITalino_B09/MAC_SYNTHETIC001.txt",
+
+          "Relative Path Post Intervention": "T01_Post_Intervention/BITalino_B19/MAC_SYNTHETIC001.txt"
+        },
+
+
+        {
+          "Student Code": "P002",
+          "Sex": "M",
+          "Date": "2015-07-21",
+
+          "Pre D1": "BITalino_B15",
+          "Pre D2": "BITalino_B15",
+          "Intervention": "BITalino_B10",
+          "Post Intervention": "BITalino_B20",
+
+          "Relative Path Pre D1": "T01_Pre_D1/BITalino_B15/MAC_SYNTHETIC002.txt",
+
+          "Relative Path Pre D2": "T01_Pre_D2/BITalino_B15/MAC_SYNTHETIC002.txt",
+
+          "Relative Path Intervention": "T01_Intervention/BITalino_B10/MAC_SYNTHETIC002.txt",
+
+          "Relative Path Post Intervention": "T01_Post_Intervention/BITalino_B20/MAC_SYNTHETIC002.txt"
+        }
+      ]
+    },
+
+
+    {
+      "Turma": "T02",
+
+      "Participants": [
+        {
+          "Student Code": "P003",
+          "Sex": "F",
+          "Date": "2015-11-03",
+
+          "Pre D1": "BITalino_B03",
+          "Pre D2": "BITalino_B03",
+          "Intervention": "BITalino_B07",
+          "Post Intervention": "BITalino_B11",
+
+          "Relative Path Pre D1": "T02_Pre_D1/BITalino_B03/MAC_SYNTHETIC003.txt",
+
+          "Relative Path Pre D2": "T02_Pre_D2/BITalino_B03/MAC_SYNTHETIC003.txt",
+
+          "Relative Path Intervention": "T02_Intervention/BITalino_B07/MAC_SYNTHETIC003.txt",
+
+          "Relative Path Post Intervention": "T02_Post_Intervention/BITalino_B11/MAC_SYNTHETIC003.txt"
+        }
+      ]
+    }
+  ]
+}

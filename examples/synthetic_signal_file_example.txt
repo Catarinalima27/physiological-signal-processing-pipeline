@@ -1,0 +1,16 @@
+# {'Num_Class':'T01',
+# 'Day':'11oct',
+# 'Session':'D1',
+# 'BITalino':'B14',
+# 'MAC_address':'MAC_SYNTHETIC001',
+# 'sampling_rate':100,
+# 'resolution':[4,1,1,1,1,10,10,10,10,6]}
+
+#MAC_address:MAC_SYNTHETIC001
+#T(ms) EDA(uS) ECG(mV) ACCx(g) ACCy(g) ACCz(g)
+
+0.0     14.86   0.0205   2.769   1.182   -0.142
+10.0    14.89   0.0210   2.770   1.181   -0.143
+20.0    14.92   0.0263   2.771   1.182   -0.143
+30.0    14.96   0.0615   2.798   1.183   -0.142
+40.0    15.01   0.0556   2.769   1.182   -0.143
